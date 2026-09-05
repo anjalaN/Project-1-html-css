@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+.logo{
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+.logo img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.serche-icon{
+    display: flex;
+    align-items: center;
+}
+.serche-icon input{
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+.serche-icon button{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+
+}
+.nav-right ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.nav-right a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.nav-right a{
+    transition: color 0.3s ease;
+}
+.nav-right a:hover {
+    color: blue;
+}/*end nav bar*/
+.hero{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+
+}
+.hero img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*media query navbar*/
+@media(max-width:768px){
+    .navbar{
+        flex-direction: column;
+        gap: 15px;
+    }
+}
