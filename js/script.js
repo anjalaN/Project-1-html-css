@@ -16,4 +16,4 @@ function nextSlide() {
     slides[currentSlide].style.display = "block";
 }
 
-setInterval(nextSlide, 100);
+setInterval(nextSlide, 1000);
