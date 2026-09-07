@@ -3,3 +3,9 @@
     color: blueviolet;
 
 }
+.image-position{
+    width: 350px;
+    height: 350PX;
+    display: flex;
+    flex-direction: row;
+}
