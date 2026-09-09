@@ -3,6 +3,8 @@
     boder properties 
     boder radus properties
     display properties
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/display)
+    [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Block-level_content)
     padding & marging properties
     box modele properties
     box-sizing properties
