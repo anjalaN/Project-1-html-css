@@ -3,8 +3,10 @@ div {
     height: 300px;
     border: 2px solid red;
     /*display: none;
-    display: block;*/
-    display:inline;
+    display: block;
+    display:inline;*/
+    display: inline-block;
+    
 
     
 }
