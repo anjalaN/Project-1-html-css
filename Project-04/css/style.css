@@ -1,4 +1,4 @@
-div{
+div {
     width: 300px;
     height: 300px;
     border: 2px solid red;
@@ -6,6 +6,8 @@ div{
     background-image: url("../project-03/images/tea pot.png");
 
 }
+
+
 img{
     width: 200px;
     height: 200px;
@@ -23,7 +25,7 @@ img{
     border: 2px solid red;
     border-radius: 50%;
 }
-#tea{
+#tea3{
     width: 100px;
     height: 100px;
     border: 2px solid red;
