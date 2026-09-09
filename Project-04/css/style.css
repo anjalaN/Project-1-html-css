@@ -3,8 +3,10 @@ div {
     height: 300px;
     border: 2px solid red;
     border-radius: 10px;
-    background-image: url("../project-03/images/tea pot.png");
+    background-image: url(../images/);
+    background-image: url("../images/tea pot.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
