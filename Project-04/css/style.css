@@ -4,7 +4,7 @@ div {
     border: 2px solid red;
     border-radius: 10px;
     background-image: url("../project-03/images/tea pot.png");
-
+    background-size: cover;
 }
 
 
