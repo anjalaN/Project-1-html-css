@@ -2,8 +2,10 @@ div {
     width: 300px;
     height: 300px;
     border: 2px solid red;
-    /*display: none;*/
-    display: block;
+    /*display: none;
+    display: block;*/
+    display:inline;
+
     
 }
 
