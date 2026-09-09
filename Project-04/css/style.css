@@ -7,3 +7,18 @@ img{
     width: 200px;
     height: 200px;
 }
+#tea1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+}
+#tea2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+}
+#tea{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+}
