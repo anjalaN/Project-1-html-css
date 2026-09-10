@@ -59,3 +59,8 @@ label{
     justify-content: space-between;
     align-items: center;
 }
+input{
+    font-size: 4rem;
+    margin-top: 4px;
+    border: 1px solid darkgray;
+}
