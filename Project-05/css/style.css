@@ -64,3 +64,9 @@ input{
     margin-top: 4px;
     border: 1px solid darkgray;
 }
+
+[type = submit]{
+    margin-top: 10px;
+    border: 1px solid darkgray;
+
+}
