@@ -68,5 +68,11 @@ input{
 [type = submit]{
     margin-top: 10px;
     border: 1px solid darkgray;
-
 }
+[type = submit]:hover{
+    background-color: #00FF00;
+}
+[type = submit]:focus{
+    background-color: #a01162;
+}
+
