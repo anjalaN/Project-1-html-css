@@ -35,14 +35,17 @@ a:active{
     color: blueviolet;
 }
 .form{
-    width: 500px;
+    width: 800px;
     height: 500px;
     border: 2px solid green;
     display: inline-block;
     margin: 30px;
     padding: 40px;
-    line-height: 10px;
+    
 }
 input:focus{
     border: 2px solid red;
+}
+form{
+    display: flex;
 }
