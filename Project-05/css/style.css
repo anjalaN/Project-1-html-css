@@ -21,3 +21,16 @@ P{
 #id-selector{
     color: brown;
 }
+/*sudo class*/
+a:link{
+    color: green;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: blueviolet;
+}
