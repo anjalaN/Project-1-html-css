@@ -34,6 +34,12 @@ a:hover{
 a:active{
     color: blueviolet;
 }
+.form{
+    width: 500px;
+    height: 500px;
+    border: 2px solid green;
+    display: inline-block;
+}
 input:focus{
     border: 2px solid red;
 }
