@@ -33,3 +33,5 @@
     normalize.css - newwer
     sanitize.css -newest
     mclead-reset.css - best and good
+
+        (first letter)[https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/::first-letter]
