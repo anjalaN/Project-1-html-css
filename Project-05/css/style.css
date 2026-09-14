@@ -75,7 +75,7 @@ input{
 [type = submit]:focus{
     background-color: #a01162;
 }
-li:nth-last-child(04){
+li:nth-last-child(02){
     color: #00FF00;
 }
 
