@@ -9,7 +9,9 @@
         visited
         link
         focus
-        nth chils
+        nth child
+            (mdn)[https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:nth-child]
+
         first-child
         last-child
         nth-child(event)

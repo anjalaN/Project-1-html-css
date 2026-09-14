@@ -75,10 +75,18 @@ input{
 [type = submit]:focus{
     background-color: #a01162;
 }
+/*nth class */
 li:nth-last-child(02){
     color: #00FF00;
 }
 li:nth-child(3n+2){
     color: red;
+}
+
+/* persudo class */
+p::first-letter{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    line-height: .5px;
 }
 
