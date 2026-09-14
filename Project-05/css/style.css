@@ -78,4 +78,7 @@ input{
 li:nth-last-child(02){
     color: #00FF00;
 }
+li:nth-child(3n+2){
+    color: red;
+}
 
