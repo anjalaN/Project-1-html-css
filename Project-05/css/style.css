@@ -96,3 +96,6 @@ p::first-line{
     color: #00FF00;
     font-weight: 900;
 }
+div p{
+    color: blue;
+}
