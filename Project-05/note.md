@@ -35,3 +35,5 @@
     mclead-reset.css - best and good
 
         (first letter)[https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/::first-letter]
+
+        (note)[https://docs.google.com/document/d/1aBzcpuPE8iFxtrb9JUDgsNPt1Clr_B4V36pnzHc-KYE/edit?usp=sharing]
