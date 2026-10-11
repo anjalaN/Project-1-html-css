@@ -33,7 +33,14 @@
     text-align: center;
     padding: 10px;
 }
+/* Mobile: 350px and wider */
+@media (min-width: 350px) {
+    .cards {
+        flex-direction: column;
+    }
+}
 
+/* Tablet and desktop: 768px and wider */
 @media (min-width: 768px) {
     .cards {
         flex-direction: row;
