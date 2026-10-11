@@ -16,8 +16,22 @@
     gap: 20px;
     padding: 20px;
 }
-
+/*
 .card {
+    flex: 1;
+    min-width: 0;
+}*/
+.card:nth-child(1) {
+    flex: 1;
+    min-width: 0;
+}
+
+.card:nth-child(2) {
+    flex: 2;
+    min-width: 0;
+}
+
+.card:nth-child(3) {
     flex: 1;
     min-width: 0;
 }
