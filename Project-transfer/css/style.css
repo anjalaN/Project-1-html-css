@@ -1,0 +1,251 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    background-color:  #faf9f6;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+   
+}
+header .nav-logo img {
+    width: 150px;
+    height: auto;
+    
+}
+
+header .nav-bar nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+header .nav-bar nav li a {
+    text-decoration: none;
+    color: #455653;
+}
+
+header .nav-bar nav li a:active {
+    color: rgb(194, 15, 39);
+}
+
+header .nav-bar nav li a:hover {
+    color: blueviolet;
+}
+
+header .nav-button {
+    display: flex;
+    gap: 30px;
+}
+
+header .nav-button button {
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #124f43;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+header .nav-button button:active {
+    background-color: rgb(80, 80, 200);
+}
+
+header .nav-button button:hover {
+    background-color: rgb(244, 121, 121);
+    color: white;
+}
+header .nav-button .phone-button {
+    background-color: #faf9f6;
+    color: #124f43;
+    border: 1px solid #e5e1d9;
+}
+
+header .nav-logo img {
+    width: 230px;
+    height: auto;
+}
+
+header .nav-button button {
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+}/* end nav bar*/
+
+/*hero section*/
+.hero {
+    min-height: 500px;
+    background-image:
+        linear-gradient(
+            rgba(8, 57, 47, 0.88),
+            rgba(8, 57, 47, 0.88)
+        ),
+        url("../images/background-image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-content{
+    padding: 70px 8%;
+    max-width: 900px;
+    color: white;
+}
+.france {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 24px;
+}
+.hero-content h1{
+    font-size: 64px;
+    line-height: 1.15;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.hero-content h1 span{
+    color: #f0a04b;
+}
+.hero-description{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #d6dfdc;
+    margin-bottom: 36px;
+    max-width: 700px;
+}
+.hero-buttons{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+
+}
+.hero-buttons button{
+    padding: 15px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.hero-buttons .dev{
+    background-color: #f0a04b;
+    color: #12392f;
+    border: 1px solid #f0a04b;
+}
+.hero-buttons .tarif {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.hero-note {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #d6dfdc;
+    margin-top: 8px;
+}/* end hero section*/
+
+/* Tablet and small screens */
+@media screen and (max-width: 765px) {
+    header{
+        flex-direction: column;
+        gap: 20px;
+    }
+    header .nav-bar nav ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    header .nav-button{
+        flex-direction: column;
+        gap: 10px;
+    }
+      .hero {
+        min-height: auto;
+        background-position: center;
+    }
+
+    .hero-content {
+        padding: 45px 6%;
+    }
+
+    .france {
+        font-size: 12px;
+        padding: 7px 12px;
+        margin-bottom: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+        line-height: 1.15;
+        margin-bottom: 20px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 28px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .hero-buttons button {
+        width: 100%;
+        padding: 14px 16px;
+    }
+
+    .hero-note {
+        font-size: 12px;
+        line-height: 1.6;
+        margin-top: 8px;
+    }
+    
+}
+
+/* Small mobile screens */
+@media screen and (max-width: 350px) {
+    header{
+        padding: 10px 5px;
+    }
+    header .nav-logo img{
+        max-width: 100px;
+        height: auto;
+    }
+    header .nav-bar nav ul{
+        gap: 12px;
+    }
+    header .nav-button{
+        width: 100%;
+        align-items: center;
+    }
+    header .nav-button button{
+        max-width: 100%;
+    }
+
+
+    .hero-content {
+        padding: 35px 5%;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+    
+}
+
+
+
+
+
