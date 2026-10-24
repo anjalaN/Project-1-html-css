@@ -342,7 +342,7 @@ header .nav-button button {
     background-color: #f1f4f0;
     
 }
-.divis-container{
+.devis-container{
     display: grid;
     grid-template-columns: 1fr 1.1fr;
     gap: 50px;
@@ -356,9 +356,220 @@ header .nav-button button {
 }
 .devis-label{
     display: inline-block;
+    margin-bottom: 18px;
+    color: #c17c32;
+    font-size:13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.devis-info h1 {
+    margin-bottom: 20px;
+    color: #124f43;
+    font-family: Georgia, serif;
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 400;
+
+}
+.devis-info > p{
+    margin-bottom: 30px ;
+    color: #647873;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.contact-card{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 18px;
+    padding: 18px;
+    background-color: white;
+    border-radius: 12px;
+}
+.contact-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: #e8f0eb;
+    color: #124f43;
+    font-size: 22px;
+}
+.contact-card h3{
+    margin-bottom: 5px;
+    color: #124f43;
+    font-size: 16px;
+}
+.contact-card p,
+.contact-card a{
+    color: #647873;
+    font-size: 14px;
+    text-decoration: none;
+}
+/*right side */
+.devis-form-container{
+    background-color: white;
+    padding: 35px ;
+    border-radius: 15px;
+
+}
+.devis-form-container h2{
+    margin-bottom: 20px;
+    color: #124f43;
+    font-family: Georgia, serif;
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 400;
+    
+}
+.devis-form-container p{
+    margin-bottom: 30px ;
+    color: #647873;
+    font-size: 16px;
+    line-height: 1.7;
+    
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 8px;
+    
+
+
+}
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.form-group label {
+    font-size: 1rem;
+    color: #647873;
+    font-weight: 600;
+}
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #d5ded8;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.devis-form-container button {
+    width: 100%;
+    padding: 14px;
+    background-color: #124f43;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}/*end of the devvis section*/
+
+.price{
+    background-color: #f1eee6;
+    padding: 70px 3%;
+}
+.price-details {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+}
+.price-details h1{
+    margin-bottom: 20px;
+    color: #124f43;
+    font-family: Georgia, serif;
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 400;
+
+}
+.price-details p{
+    margin-bottom: 30px ;
+    color: #647873;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.price-details table{
+    width: 100% ;
+    margin-bottom: 10px ;
 }
 
+.price-details table th {
+    padding: 15px;
+    background-color: #124f43;
+    color: #f1eee6;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.price-details th,
+.price-details td{
+    padding: 18px 15px;
+}
+.price-details tbody tr:hover {
+    background-color: #dcebe5;
+}/* end */
 
+
+.info-footer {
+    background-color: #124f43;
+    padding: 60px 5%;
+}
+
+.info {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+.col-info1 img {
+    width: 270px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 25px;
+}
+.col-info1 p {
+    color: #b8ccc6;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+.social-links {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.social-links li {
+    width: 40px;
+    height: 40px;
+}
+.social-links li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #386b60;
+    border-radius: 50%;
+    color: #d0ded9;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.social-links li a:hover {
+    background-color: #386b60;
+}
 /* Tablet and small screens */
 @media screen and (max-width: 765px) {
     header{
@@ -449,6 +660,25 @@ header .nav-button button {
         font-size: 32px;
     }
     /*end */
+    .devis {
+        padding: 45px 5%;
+    }
+
+    .devis-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .devis-form-container h2 {
+        font-size: 32px;
+    }/* end*/
+    .price-details h1 {
+    font-size: 32px;
+    }
+    .price-details th,
+    .price-details td {
+    padding: 10px 6px;
+    }  /*end*/ 
 }
 
 /* Small mobile screens */
