@@ -150,6 +150,215 @@ header .nav-button button {
     margin-top: 8px;
 }/* end hero section*/
 
+
+.ater-hero {
+    width: 100%;
+    min-height: 90px;
+    background: linear-gradient(to right, #123f36, #3b3928);
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 5%;
+}
+
+.description h4 {
+    margin: 0 0 5px;
+    color: #b8b9b1;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.description p {
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}/*end after section */
+
+.nos-section {
+    width: 100%;
+    padding: 60px 9%;
+    background-color: #faf8f5;
+}
+
+.nos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nos h4 {
+    color: #d88935;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+.nos h1 {
+    max-width: 650px;
+    color: #124f43;
+    font-family: Georgia, serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.nos > p {
+    max-width: 650px;
+    color: #647873;
+    font-size: 17px;
+    line-height: 1.7;
+    margin: 0 0 20px;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.services1,
+.services2,
+.services3 {
+    background-color: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.services1 img,
+.services2 img,
+.services3 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.services-container h3,
+.services-container p {
+    margin: 15px;
+}
+
+.services-container button {
+    margin: 0 15px 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #124f43;
+    color: white;
+    cursor: pointer;
+}/*end nos-section*/
+.reservation{
+    width: 100%;
+    padding: 30px 8%;
+    background-color: #faf8f5;
+    box-sizing: border-box;
+}
+.etaps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+}
+.col1{
+    flex: 1;
+    min-width: 0;
+
+}
+.col1 img{
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+.col2{
+    flex: 1;
+    min-width: 0;   
+}
+.col2 h1{
+   color: #104f43;
+    font-size: 42px;
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+.col2 > p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.trajet p,
+.prix p,
+.voyage p {
+    font-size: 15px;
+}
+
+.trajet,
+.prix,
+.voyage{
+    display: grid;
+    grid-template-columns: 55px 1fr;
+    column-gap: 18px;
+    margin-bottom: 25px;
+}
+.trajet button,
+.prix button,
+.voyage button{
+    width: 48px;
+    height: 48px;
+    border: none;
+    background-color: #104f43;
+    color: white;
+    font-weight: bold;
+     border-radius: 15px;
+    cursor: default;
+}
+.trajet h3,
+.prix h3,
+.voyage h3{
+    margin: 5px 0 10px;
+    color: #104f43;
+}
+
+.trajet p,
+.prix p,
+.voyage p {
+    grid-column: 2;
+    margin: 0;
+    color: #687a7b;
+    line-height: 1.6;
+}
+
+.devis{
+    width: 100%;
+    padding: 70px 8%;
+    background-color: #f1f4f0;
+    
+}
+.divis-container{
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 50px;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.devis-info{
+    padding: 20px 0;
+}
+.devis-label{
+    display: inline-block;
+}
+
+
 /* Tablet and small screens */
 @media screen and (max-width: 765px) {
     header{
@@ -206,8 +415,40 @@ header .nav-button button {
         font-size: 12px;
         line-height: 1.6;
         margin-top: 8px;
+    }/*end hero section*/
+    .description{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 20px;
     }
-    
+    .ater-hero{
+        height: auto;
+    }/*end after-hero*/
+
+      .services-container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 20px;
+    }/*end nos-section*/
+
+    .etaps {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .col1,
+    .col2 {
+        width: 100%;
+    }
+
+    .col1 img {
+        height: 350px;
+    }
+    .col2 h2{
+        font-size: 32px;
+    }
+    /*end */
 }
 
 /* Small mobile screens */
@@ -241,8 +482,29 @@ header .nav-button button {
 
     .hero-description {
         font-size: 15px;
-    }
+    }/*end hero section*/
     
+    .description {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    /*end*/
+    .nos-section {
+        padding: 35px 15px;
+    }
+
+    .nos h1 {
+        font-size: 30px;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+
+    .nos h1 {
+        font-size: 30px;
+    }/*end nos-section*/
 }
 
 
