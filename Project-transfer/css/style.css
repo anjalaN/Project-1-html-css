@@ -276,7 +276,8 @@ header .nav-button button {
     width: 100%;
     height: 500px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 50px;
+    
     
 }
 .col2{
@@ -549,27 +550,94 @@ header .nav-button button {
     padding: 0;
     margin: 0;
 }
-.social-links li {
-    width: 40px;
-    height: 40px;
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
+.social-links li {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
 .social-links li a {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
     border: 1px solid #386b60;
     border-radius: 50%;
     color: #d0ded9;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     transition: background-color 0.3s ease;
 }
 
 .social-links li a:hover {
     background-color: #386b60;
 }
+/* deuxième colonne footer*/
+
+.col-info2 h3,
+.col-info3 h3,
+.col-info4 h3{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.col-info2 ul,
+.col-info3 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.col-info2 li,
+.col-info3 li{
+    margin-bottom: 12px;
+}
+.col-info2 a,
+.col-info3 a{
+    color: #b8ccc6;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+.col-info2 a:hover,
+.col-info3 a:hover{
+    color: #ffffff;
+
+}
+/* 4 colonne*/
+.col-info4 p{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 2.0;
+    margin-bottom: 12px;
+}
+.footer-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #ffffff;
+    color: #124f43;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.footer-button:hover {
+    background-color: #d0ded9;
+}
+
+
 /* Tablet and small screens */
 @media screen and (max-width: 765px) {
     header{
@@ -679,6 +747,11 @@ header .nav-button button {
     .price-details td {
     padding: 10px 6px;
     }  /*end*/ 
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
 }
 
 /* Small mobile screens */
